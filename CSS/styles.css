@@ -1,0 +1,95 @@
+/* =========
+dropping
+============ */
+.link{
+ text-decoration: none;
+ padding: 0;
+ margin: 0;
+ color: inherit;
+}
+.list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* =========
+common
+============ */
+body{
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(27/18);
+    color: #8491A0;
+}
+.container{
+  max-width: 1440px;
+}
+/* =========================== */
+/* ===============
+header
+=============== */
+.header-container{
+  display: flex;
+  align-items: center;
+
+  background-color: #000000;
+
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.nav {
+  margin-left: auto;
+}
+.nav-list{
+  display: flex;
+  margin-left: auto;
+
+  gap: 48px;
+}
+
+.nav-item{
+  font-size: 16px;
+  line-height: calc(24/16);
+}
+.nav-link{
+  display: block;
+  color: #ffffff;
+
+  padding: 32px 24px;
+}
+.nav-link:hover
+.nav-link:focus{
+  background-color: #5221E6;
+}
+
+/* 
+===========================
+hero
+=========================== 
+*/
+.hero-container{
+  display: flex;
+}
+.hero-block{
+  background-color: #181823;
+
+  padding-top: 307px;
+  padding-right: 40px;
+  padding-bottom: 225px;
+  padding-left: 122px;
+}
+.hero-title{
+  font-weight: 700;
+  font-size: 78px;
+  line-height: 94px;
+
+  color: #FFFFFF;
+
+  width: 738px;
+}
+.hero-title-end{
+  color: #8491A0;
+}
